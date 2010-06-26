@@ -1,0 +1,11 @@
+<div id="header">
+    <% logo = image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+	<%= link_to logo, root_path %>
+    <ul class="navigation round">
+      <li><%= link_to "Home", root_path %></li>
+	  <li><%= link_to "About", about_path %></li>
+	  <li><%= link_to "Contact", contact_path %></li>
+      <li><%= link_to "Help", help_path %></li>
+      <li><%= link_to "Sign in", signin_path %></li>
+    </ul>
+  </div>
